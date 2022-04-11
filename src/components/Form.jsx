@@ -8,7 +8,7 @@ export default function Form() {
     return (
 
         <div className={s.container}>
-            <AnimationOnScroll animateIn="animate__backInLeft" >
+            <AnimationOnScroll animateIn="animate__fadeInLeft" >
 
             <div className={s.cajita}>
                 <div className={s.Form}>
