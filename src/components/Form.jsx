@@ -1,15 +1,13 @@
 import React from 'react'
 import Email from './img/Email.svg'
-import { BsGithub,BsLinkedin,BsWhatsapp } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import s from './styles/Form.module.css'
-import {AnimationOnScroll} from 'react-animation-on-scroll';
+
 
 export default function Form() {
     return (
 
         <div className={s.container}>
-            <AnimationOnScroll animateIn="animate__fadeInLeft" >
-
             <div className={s.cajita}>
                 <div className={s.Form}>
                     <h1 className={s.TextPrimary}>Let's talk</h1>
@@ -32,17 +30,14 @@ export default function Form() {
                     </div>
                 </div>
                 <div className={s.Imgandcontact}>
-            <img className={s.img} src={Email}></img>
-            <ul>
-            <li><a href="https://github.com/Kevinekisde"><BsGithub></BsGithub></a></li>
-            <li><a href="https://www.linkedin.com/in/kevin-leiva-98208a184/"><BsLinkedin></BsLinkedin></a></li>
-            <li><a href="https://wa.me/939418935"><BsWhatsapp></BsWhatsapp></a></li>
-          </ul>
-
+                    <img className={s.img} src={Email}></img>
+                    <ul>
+                        <li><a href="https://github.com/Kevinekisde"><BsGithub></BsGithub></a></li>
+                        <li><a href="https://www.linkedin.com/in/kevin-leiva-98208a184/"><BsLinkedin></BsLinkedin></a></li>
+                        <li><a href="https://wa.me/939418935"><BsWhatsapp></BsWhatsapp></a></li>
+                    </ul>
                 </div>
             </div>
-
-            </AnimationOnScroll>
         </div>
     )
 }
