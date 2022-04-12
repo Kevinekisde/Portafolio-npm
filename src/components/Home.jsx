@@ -7,7 +7,7 @@ import { BsGithub,BsLinkedin,BsWhatsapp } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import wave from './img/wave.svg'
 import { NavLink  } from 'react-router-dom';
-
+import Wave from 'react-wavify'
 
 
 const Home = () => {
@@ -25,7 +25,15 @@ const Home = () => {
             <NavLink to="/form"><SiGmail></SiGmail></NavLink >
           </ul>
         </div>
-        <img className={s.wave} src={wave}></img>
+        <Wave className={s.wave} fill='#462de7'
+        paused={false}
+        options={{
+          height: 50,
+          amplitude: 90,
+          speed: 0.15,
+          points: 3
+        }}
+  />
         <Aboutme></Aboutme>
         <Proyects></Proyects>
         </div>
