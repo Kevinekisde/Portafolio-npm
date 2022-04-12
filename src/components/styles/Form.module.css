@@ -75,6 +75,8 @@
 
 
 .button{
+    position: relative;
+    left: 20px;
     background-color:#827ffe;
     color: #fff;
     border: none;
@@ -98,20 +100,6 @@
     gap: 70px;
 }
 
-.Imgandcontact > ul{
-    
-    list-style: none;
-    font-size:40px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width:100%;
-
-}
-
-.Imgandcontact > ul > li > a{
-    color: #f9b246;
-}
 
 
 @media (max-width: 600px){
@@ -154,4 +142,44 @@
         text-align: center;
         resize:none;
     }
+    .button{
+        position: relative;
+        left: 0;
+        background-color:#827ffe;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        width:40vh;
+        height:6vh;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 980px){
+
+
+    .Form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 30px;
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    .input{
+        width:25vh;
+    }
+
+    .area{
+        width:30vh;
+    }
+    .img{
+        width:80%;
+        height:100vh;
+        display:none
+    }
+    
+
 }

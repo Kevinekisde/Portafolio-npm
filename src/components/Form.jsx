@@ -31,11 +31,6 @@ export default function Form() {
                 </div>
                 <div className={s.Imgandcontact}>
                     <img className={s.img} src={Email}></img>
-                    <ul>
-                        <li><a href="https://github.com/Kevinekisde"><BsGithub></BsGithub></a></li>
-                        <li><a href="https://www.linkedin.com/in/kevin-leiva-98208a184/"><BsLinkedin></BsLinkedin></a></li>
-                        <li><a href="https://wa.me/939418935"><BsWhatsapp></BsWhatsapp></a></li>
-                    </ul>
                 </div>
             </div>
         </div>
