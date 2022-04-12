@@ -1,6 +1,6 @@
 import React from 'react'
+
 import Email from './img/Email.svg'
-import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import s from './styles/Form.module.css'
 
 
@@ -30,7 +30,7 @@ export default function Form() {
                     </div>
                 </div>
                 <div className={s.Imgandcontact}>
-                    <img className={s.img} src={Email}></img>
+                    <img className={s.img} src={Email} alt=""></img>
                 </div>
             </div>
         </div>

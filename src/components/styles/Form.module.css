@@ -100,6 +100,8 @@
     gap: 70px;
 }
 
+
+
 @media (max-width: 980px){
 
 
@@ -107,7 +109,7 @@
         height:100vh;    
     }
     .cajita{
-        height:50vh;
+        height:80vh;
     }
 
 

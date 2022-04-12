@@ -16,7 +16,7 @@ const Proyects = () => {
           <h1>My main Proyects</h1>
           <div className={s.cards}>
             <div className={s.card}>
-              <img className={s.img} src={minPoke} />
+              <img className={s.img} src={minPoke} alt="" />
               <div className={s.text}>
                 <h1>Pokeapi</h1>
                 <div className={s.link}>
@@ -26,7 +26,7 @@ const Proyects = () => {
               </div>
               </div>
             <div className={s.card}>
-            <img className={s.img} src={minCup} />
+            <img className={s.img} src={minCup} alt="" />
               <div className={s.text}>
                 <h1>Cupcake</h1>
                 <div className={s.link}>
@@ -36,10 +36,11 @@ const Proyects = () => {
               </div>
               </div>
             <div className={s.card}>
-            <img className={s.img} src={minBresh} />
+            <img className={s.img} src={minBresh} alt=""/>
               <div className={s.text}>
                 <h1>Bresh</h1>
                 <div className={s.link}>
+                <a className={s.Git} href="https://github.com/Kevinekisde/Maqueta-FiestaBresh"><BsGithub></BsGithub></a>
                 <a className={s.yt} href="https://youtu.be/KCdw72Od4pA"><BsYoutube></BsYoutube></a>
                 </div>
               </div>
