@@ -100,6 +100,35 @@
     gap: 70px;
 }
 
+@media (max-width: 980px){
+
+
+    .Form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 30px;
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    .input{
+        width:25vh;
+    }
+
+    .area{
+        width:30vh;
+    }
+    .img{
+        width:80%;
+        height:100vh;
+        display:none
+    }
+    .button{
+        width:25vh
+    }
+
+}
 
 
 @media (max-width: 600px){
@@ -155,33 +184,3 @@
     }
 }
 
-
-@media (max-width: 980px){
-
-
-    .Form{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding-top: 30px;
-        padding-left: 30px;
-        width: 100%;
-    }
-
-    .input{
-        width:25vh;
-    }
-
-    .area{
-        width:30vh;
-    }
-    .img{
-        width:80%;
-        height:100vh;
-        display:none
-    }
-    .button{
-        width:25vh
-    }
-
-}
